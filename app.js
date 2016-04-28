@@ -173,7 +173,7 @@ window.SM = {};
     }
   };
   window.addEventListener('load', function() {
-    ServiceLocator.provide('orderForm', (function() {
+    ServiceLocator.provide('OrderForm', (function() {
       return new OrderForm();
     })());
   });
