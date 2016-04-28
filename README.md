@@ -13,9 +13,13 @@ These are criticisms of the original `test.js` provided.
 - The `modal` for specifying the attributes the order is being created and appended to the DOM every time you click the _"Create order"_ button. Why not just create the form once and toggle the visibility when it is required. (Minimizing DOM reflows and repaints.)
 - When you update the `color`, `size`, or `quantity` attributes the order's view updates. However, when you modify `customer` name the view does not update event when you click the _"Add order"_ button.
 
+## Demo
+
+- [Link](https://synthecypher.github.io/sm-orders)
+
 ## Explanation
 
-This is an explanation for the changes I made during the course of the test, the result of which can be found in `app.js`.
+This is an explanation for the changes I made during the course of the test, the result of which can be found in `app.js`. I also renamed `test.html` to `index.html` to make hosting on GitHub Pages easier.
 
 I split out the application into a few modules.
 
