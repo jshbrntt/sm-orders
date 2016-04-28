@@ -217,7 +217,7 @@ window.SM = {};
 
   function getOrderModels() {
     var orderModels = [];
-    var data = ordersService.retrieve();
+    var data = orders.retrieve();
     for (var i in data) {
       orderModels.push(
         new SM.Model(data[i])
