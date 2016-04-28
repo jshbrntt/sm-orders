@@ -125,7 +125,4 @@ window.addEventListener('load', function() {
       }
     })
   });
-
-
-
 })

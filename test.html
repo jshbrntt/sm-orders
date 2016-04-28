@@ -1,15 +1,35 @@
 <!doctype html>
 <html>
+
 <head>
-<script src="test.js"></script>
+  <script src="app.js"></script>
+  <!-- <script src="test.js"></script> -->
 </head>
+
 <body>
-<div>
-<button class="new-order">Create order</button>
-</div>
-<div class="orders">
-
-
-</div>
+  <div>
+    <button name="create-order">Create order</button>
+  </div>
+  <div class="orders">
+  </div>
+  <div class="lightbox" style="display: none">
+    <div class="modal">
+      <input name="customer" type="text">
+      <select name="color">
+        <option value="white">white</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+      </select>
+      <select name="size">
+        <option value="small">small</option>
+        <option value="medium">medium</option>
+        <option value="large">large</option>
+      </select>
+      <input name="quantity" type="range">
+      <button name="save" type="button">Save</button>
+      <button name="cancel" type="button">Cancel</button>
+    </div>
+  </div>
 </body>
+
 </html>
